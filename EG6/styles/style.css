@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sprite-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sprite {
+    width: 32px;
+    height: 32px;
+    background-image: url('../images/sprite_list.png');
+    margin: 30px;
+    transform: scale(4);
+}
