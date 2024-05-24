@@ -16,8 +16,7 @@ QImage readFile(){
 
     unsigned char bmpHeader[54];
 
-    for (int i = 0; i < 54; i++)
-    {
+    for (int i = 0; i < 54; i++) {
         bmpHeader[i] = getc(streamIn);
     }
 
